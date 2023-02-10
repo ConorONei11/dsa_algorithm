@@ -29,6 +29,7 @@ def hash(word):
     return (h)
 
 #The value h known as hash digest
+#The example was used as a Wordle - so any 5 letter word will do 
 h = hash('SHAKE')
 
 #Signature function which uses the inputs to out put r and s
@@ -55,5 +56,5 @@ def verification(p,q,g,A,h):
 
 print(verification(p, q, g, A, h))
 
-
+#Verified if prints 0
 
